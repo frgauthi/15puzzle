@@ -1,0 +1,141 @@
+/*
+Author: Frank Gauthier
+CS 3990
+Assignment 4
+15 Tile Stylesheet
+*/
+
+#board {
+		margin-top:			25px;
+		border-width: 		1px;
+		border-color: 		black;
+		border-style: 		solid;
+		height:				600px;
+		width:				600px;
+		position:			relative;
+		background-color:	white;
+		box-shadow: 		10px 10px 5px #111111;
+}
+
+
+#puzzlename{
+	margin-top:			20px;
+	margin-bottom:		20px;
+	background-image:url("tile.jpg");
+	background-repeat:repeat;
+	color:				white;
+	width:				600px;
+	height:				150px;
+	text-align:			center;
+	font-size: 			40pt;
+	border-style:		solid;
+	border-color:		#111111;
+	border-width:		3px;
+	line-height:		150px;
+	letter-spacing: 	4px;
+	font-weight:		bold;
+	text-shadow: 		7px 7px #111111;
+	box-shadow: 		10px 10px 10px 5px #111111;
+	
+	
+}
+
+.tile:hover{
+	
+	color:#222222;
+	
+}
+
+.tile {
+	height:				150px;
+	width:				150px;
+	border-color:		black;
+	border-style:		solid;
+	border-width:		1px;
+	text-align:			center;
+	position: 			absolute;
+	display:			inline;
+	font-size:			50px;
+	color:				white;
+	text-shadow: 		2px 2px #111111;
+	line-height: 		130px;
+}
+
+#timer{
+	color:		white;
+	font-size: 	22pt;
+	width:		10px;
+}
+
+#movep{
+	
+	
+}
+
+#moves{
+	color:		white;
+	font-size: 	22pt;
+	
+
+}
+
+#actionpanel{
+	margin-top:			20px;
+	background-image:url("tile.jpg");
+	background-repeat:repeat;
+	width:				600px;
+	height:				200px;
+	border-style:		solid;
+	border-color:		#111111;
+	border-width:		3px;
+	box-shadow: 		10px 10px 10px 5px #111111;
+}
+
+p{
+	margin-top:		25px;
+	width:			595px;
+	text-align:		center;
+	text-shadow: 	3px 3px #111111;
+}
+
+button:hover{
+	background-color:#FFFFFF;
+	color: #111111;
+	border-color:#111111;
+	
+}
+
+button{
+	background-color:	black;
+	width:				130px;
+	height:				50px;
+	border-color:		#DDDDDD;
+	border-style:		solid;
+	border-width:		3px;
+	color:				white;
+	font-weight: 		bold;
+	margin-left: 		13px;
+	margin-top:			10px;
+	border-radius: 5px;
+}
+
+#scramblemed, #scramblehard{
+	float:right;
+	margin-right:15px;
+}
+
+#scramblehard{
+	margin-top:-5px;
+}
+
+
+body {
+	background-image: url("bg.jpg");
+	background-repeat: repeat;
+	position:relative;
+	height:	800px;
+	width:30%;
+	margin:auto;
+
+	
+}
